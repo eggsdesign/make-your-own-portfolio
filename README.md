@@ -10,6 +10,10 @@ With HTML, CSS and Javascript! In this course we are going to code a portfolio, 
 - Add style with CSS
 - Publish to GitHub Pages
 
+Other:
+
+- Add a custom font (Google Font and @font-face)
+
 ### Install Git, VSCode and sign up to GitHub
 
 You can follow [these steps](./setup.md)
@@ -21,8 +25,9 @@ To make hosting simpler, follow these steps closely
 1. Make sure you are logged in to GitHub. Click the GitHub logo to navigate to the front page.
 2. Click on the `New` button to create a new repository.
 3. Name it `<username>.github.io`. In my case, the repo is called `avanvik.github.io` This will make hosting with GitHub Pages work almost like magic ✨
-4. Copy the generated repo link (mine looks like this `https://github.com/avanvik/avanvik.github.io.git`)
-5. In VSCode, click `clone directory...` and paste in the GitHub repo url. Pick where you want to put the project. I usually put mine in `Documents/Projects/`.
+4. Click `Create repository`
+5. **Important** `Click `HTTPS`and copy the generated repo link (mine looks like this`https://github.com/avanvik/avanvik.github.io.git`
+6. In VSCode, click `clone repository...` and paste in the GitHub repo url. Pick where you want to put the project. I usually put mine in `Documents/Projects/`.
 
 ### Create an HTML file
 

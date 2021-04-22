@@ -4,9 +4,9 @@
 
 What is Git? Git is a tool that helps with code collaboration, and development in code projects. It is kind of like a version history for your code files, but also much more. It is insanely useful, but this will probably not be apparent until you have used it for a while.
 
-1. Go to the Git website and download the installer.
-2. Run the installer and follow the steps.
-3. Open your Terminal.app and type in `git --version` and hit Enter. This is to check if git was properly installed. If you get an error message, call out for help.
+1. Open your Terminal.app. You can find it by searching in Spotlight, by clicking `command + space` and then typing "Terminal".
+2. Type `xcode-select --install` and follow the steps from the installer.
+3. When the installer is done, close the Terminal.app
 
 ## Install VSCode
 
