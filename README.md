@@ -4,9 +4,7 @@ With HTML, CSS and Javascript! In this course we are going to code a portfolio, 
 
 ## Day 1
 
-- Install Git
-- Install VSCode
-- Sign up to GitHub
+- Install Git, VSCode and sign up to GitHub
 - Create a repository
 - Create an HTML file
 - Add style with CSS
