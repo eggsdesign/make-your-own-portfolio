@@ -48,11 +48,12 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 
 To fix this, run the following commands in your terminal in VSCode (replace the parameters in "" to fit your own name and e-mail):
 
-Add your name
-`git config --global user.name "Your Name"`
+Paste, edit the text and click Enter to run the command.
 
-Add your GitHub e-mail
-`git config --global user.email "youremail@yourdomain.com"`
+```
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+```
 
 ## Day 2: Building your portfolio page
 
