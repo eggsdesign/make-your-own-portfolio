@@ -26,8 +26,12 @@ To make hosting simpler, follow these steps closely
 2. Click on the `New` button to create a new repository.
 3. Name it `<username>.github.io`. In my case, the repo is called `avanvik.github.io` This will make hosting with GitHub Pages work almost like magic ✨
 4. Click `Create repository`
-5. **Important** `Click `HTTPS`and copy the generated repo link (mine looks like this`https://github.com/avanvik/avanvik.github.io.git`
+5. **Important** Click `HTTPS`and copy the generated repo link (mine looks like this`https://github.com/avanvik/avanvik.github.io.git`
 6. In VSCode, click `clone repository...` and paste in the GitHub repo url. Pick where you want to put the project. I usually put mine in `Documents/Projects/`.
+
+### Create a 'main' branch
+
+A git branch is like a folder where your code changes go.
 
 ### Create an HTML file
 
