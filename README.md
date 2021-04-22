@@ -5,28 +5,41 @@ With HTML, CSS and Javascript! In this course we are going to code a portfolio, 
 ## Day 1
 
 - Install Git
-- Signing up to GitHub
-- Creating a repository
-- Installing VS Code
-- Creating an HTML file
-- Adding style with CSS
-- Publishing to GitHub Pages
+- Install VSCode
+- Sign up to GitHub
+- Create a repository
+- Create an HTML file
+- Add style with CSS
+- Publish to GitHub Pages
 
 ### Install Git
 
 What is Git? Git is a tool that helps with code collaboration, and development in code projects. It is kind of like a version history for your code files, but also much more. It is insanely useful, but this will probably not be apparent until you have used it for a while.
 
-1. On your mac, open the terminal.app
-2. Type in `xcode-select --install` and hit Enter. This will install git on your machine.
-3. Type in `git --version` and hit Enter. This is to check if git was properly installed. If you get an error message, call out for help.
+1. Go to the Git website and download the installer.
+2. Run the installer and follow the steps.
+3. Open your Terminal.app and type in `git --version` and hit Enter. This is to check if git was properly installed. If you get an error message, call out for help.
+
+### Install VSCode
+
+1. Go to the (Visual Studio Code website)[https://code.visualstudio.com/Download] and download the installer. Run the installer and follow the steps.
+2. Open VSCode
 
 ### Sign up to GitHub
 
 Go to github.com in your web browser and sign up.
 
-### Creating a repository
+### Create a repository on GitHub
 
-1. After logging in to GitHub.com, click on the `New` button to create a new repository.
-2. Give it a nice name – I called mine `my-portfolio`, and make sure it is set to **public**.
-3. Copy the generated repo link (mine looks like this `https://github.com/avanvik/my-portfolio.git`), and open your terminal.app.
-4. Navigate to your project folder of choice with `cd <Folder name>` and then type `git clone <repository-url>`. This will copy the project folder from GitHub onto your machine, with a magical link that lets you upload and download your code to GitHub while you are developing.
+To make hosting simpler, follow these steps closely
+
+1. Make sure you are logged in to GitHub. Click the GitHub logo to navigate to the front page.
+2. Click on the `New` button to create a new repository.
+3. Name it `<username>.github.io`. In my case, the repo is called `avanvik.github.io` This will make hosting with GitHub Pages work almost like magic ✨
+4. Copy the generated repo link (mine looks like this `https://github.com/avanvik/avanvik.github.io.git`)
+5. In VSCode, click `clone directory...` and paste in the GitHub repo url. Pick where you want to put the project. I usually put mine in `Documents/Projects/`.
+
+### Create an HTML file
+
+1. In VSCode, create a new file in your project folder.
+2. Name it `index.html` and open the file.
