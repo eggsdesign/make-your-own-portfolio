@@ -34,9 +34,15 @@ To make hosting simpler, follow these steps closely
 A git branch is like a folder where your code changes go. GitHub Pages require a `main` branch, but VSCode – for some dumb reason – starts with a `master` branch. Solve this by creating a new branch in VSCode.
 
 1. In VSCode click Terminal>New Terminal. This will open a new panel with a terminal in it, navigated to your project folder.
-2. Type `git checkout -b main` to create a new branch called `main` and set it as the active branch.
+2. Type `git checkout -b main` and click Enter to run the command. This will create a new branch called `main` and set it as the active branch.
 
 ### Create an HTML file
 
 1. In VSCode, create a new file in your project folder.
 2. Name it `index.html` and open the file.
+
+### Commit your changes
+
+1. In VSCode click the "Source Control" tab in the left sidebar. It should have a notification icon, since you added your index.html file.
+2. Click the "✔" Icon to commit all changes
+3. Click
