@@ -2,17 +2,12 @@
 
 With HTML, CSS and Javascript! In this course we are going to code a portfolio, and host it with [GitHub Pages](https://pages.github.com/). This will give you an introduction to web technology and Git, which should be a solid foundation to build your continued code mastery upon.
 
-## Day 1
+## Day 1: Setting things up
 
 - Install Git, VSCode and sign up to GitHub
 - Create a repository
 - Create an HTML file
-- Add style with CSS
 - Publish to GitHub Pages
-
-Other:
-
-- Add a custom font (Google Font and @font-face)
 
 ### 1. Install Git, VSCode and sign up to GitHub
 
@@ -49,16 +44,19 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 2. Click the "✔" Icon to commit all changes
 3. Click the arrow icon to push your changes to GitHub (Lower left corner of the editor window).
 
-**Note:** For some people this might trigger an error message, saying that github username and email are not properly configured. To fix this, run the following commands in your terminal in VSCode:
+**Note:** For some people this might trigger an error message, saying that github username and email are not properly configured.
 
-Add your GitHub username
+To fix this, run the following commands in your terminal in VSCode (replace the parameters in "" to fit your own name and e-mail):
 
-```
-git config --global user.name "Your Name"
-```
+Add your name
+`git config --global user.name "Your Name"`
 
 Add your GitHub e-mail
+`git config --global user.email "youremail@yourdomain.com"`
 
-```
-git config --global user.email "youremail@yourdomain.com"
-```
+## Day 2: Building your portfolio page
+
+- Add content and structure with HTML
+- Add style with CSS
+
+More to come
