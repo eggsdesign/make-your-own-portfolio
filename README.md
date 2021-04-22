@@ -14,11 +14,11 @@ Other:
 
 - Add a custom font (Google Font and @font-face)
 
-### Install Git, VSCode and sign up to GitHub
+### 1. Install Git, VSCode and sign up to GitHub
 
 You can follow [these steps](./setup.md)
 
-### Create a repository on GitHub
+### 2. Create a repository on GitHub
 
 To make hosting simpler, follow these steps closely
 
@@ -29,19 +29,19 @@ To make hosting simpler, follow these steps closely
 5. **Important** Click `HTTPS`and copy the generated repo link (mine looks like this`https://github.com/avanvik/avanvik.github.io.git`
 6. In VSCode, click `clone repository...` and paste in the GitHub repo url. Pick where you want to put the project. I usually put mine in `Documents/Projects/`. **Note:** VSCode will try to authenticate your GitHub user, so just follow the required steps for that.
 
-### Create a 'main' branch
+### 3. Create a 'main' branch
 
 A git branch is like a folder where your code changes go. GitHub Pages require a `main` branch, but VSCode – for some dumb reason – starts with a `master` branch. Solve this by creating a new branch in VSCode.
 
 1. In the VSCode toolbar (the bar stuck to the top of your screen on Mac) click `Terminal > New Terminal`. This will open a new panel with a terminal in it, navigated to your project folder.
 2. Type `git checkout -b main` and click Enter to run the command. This will create a new branch called `main` and set it as the active branch.
 
-### Create an HTML file
+### 4. Create an HTML file
 
 1. In VSCode, create a new file in your project folder.
 2. Name it `index.html` and open the file.
 
-### Commit your changes
+### 5. Commit your changes
 
 ![Commit changes GIF](./assets/add-and-commit.gif)
 
