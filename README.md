@@ -45,4 +45,18 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 
 1. In VSCode click the "Source Control" tab in the left sidebar. It should have a notification icon, since you added your index.html file.
 2. Click the "✔" Icon to commit all changes
-3. Click
+3. Click the arrow icon to push your changes to GitHub (Lower left corner of the editor window).
+
+**Note:** For some people this might trigger an error message, saying that github username and email are not properly configured. To fix this, run the following commands in your terminal in VSCode:
+
+Add your GitHub username
+
+```
+git config --global user.name "Your Name"
+```
+
+Add your GitHub e-mail
+
+```
+git config --global user.email "youremail@yourdomain.com"
+```
