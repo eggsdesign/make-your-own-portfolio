@@ -31,7 +31,10 @@ To make hosting simpler, follow these steps closely
 
 ### Create a 'main' branch
 
-A git branch is like a folder where your code changes go.
+A git branch is like a folder where your code changes go. GitHub Pages require a `main` branch, but VSCode – for some dumb reason – starts with a `master` branch. Solve this by creating a new branch in VSCode.
+
+1. In VSCode click Terminal>New Terminal. This will open a new panel with a terminal in it, navigated to your project folder.
+2. Type `git checkout -b main` to create a new branch called `main` and set it as the active branch.
 
 ### Create an HTML file
 
