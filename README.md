@@ -1,6 +1,6 @@
 # Make your own portfolio
 
-With HTML, CSS and Javascript! In this course we are going to code a portfolio, and host it with (GitHub Pages)[https://pages.github.com/]. This will give you an introduction to web technology and Git, which should be a solid foundation to build your continued code mastery upon.
+With HTML, CSS and Javascript! In this course we are going to code a portfolio, and host it with [GitHub Pages](https://pages.github.com/). This will give you an introduction to web technology and Git, which should be a solid foundation to build your continued code mastery upon.
 
 ## Day 1
 
@@ -22,7 +22,7 @@ What is Git? Git is a tool that helps with code collaboration, and development i
 
 ### Install VSCode
 
-1. Go to the (Visual Studio Code website)[https://code.visualstudio.com/Download] and download the installer. Run the installer and follow the steps.
+1. Go to the [Visual Studio Code website](https://code.visualstudio.com/Download) and download the installer. Run the installer and follow the steps.
 2. Open VSCode
 
 ### Sign up to GitHub
