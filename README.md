@@ -43,6 +43,8 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 
 ### Commit your changes
 
+![Commit changes GIF](./assets/add-and-commit.gif)
+
 1. In VSCode click the "Source Control" tab in the left sidebar. It should have a notification icon, since you added your index.html file.
 2. Click the "✔" Icon to commit all changes
 3. Click the arrow icon to push your changes to GitHub (Lower left corner of the editor window).
