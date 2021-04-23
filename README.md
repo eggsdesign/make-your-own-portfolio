@@ -49,6 +49,7 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 
 1. In VSCode, create a new file in your project folder.
 2. Name it `index.html` and open the file.
+3. Add `<h1>It works!</h1>` to the html file and save it.
 
 ### 5. Commit your changes
 
@@ -79,9 +80,33 @@ git config --global user.email "youremail@yourdomain.com"
 
 </details>
 
+### 6. Add HTML content
+
+HTML is all about structure and content, and not about style (that is where CSS comes in). Almost all HTML documents follow this basic structure:
+
+```html
+<!DOCTYPE html>
+<html>
+  <!-- Meta data goes in the <head> -->
+  <head>
+    <title>Title of page</title>
+  </head>
+
+  <!-- Content goes in the <body> -->
+  <body>
+    <h1>Welcome to Alexanders portfolio</h1>
+    <p>I do pixels and code, and occasionally give talks on conferences</p>
+  </body>
+</html>
+```
+
+**When you are done** with adding content to your html page, do the following to update your website:
+
+1. Save the HTML file
+2. Commit the changes
+3. Push to GitHub
+
 ## Day 2: Building your portfolio page
 
-- Add content and structure with HTML
+- Add a header and a list of projects
 - Add style with CSS
-
-More to come
