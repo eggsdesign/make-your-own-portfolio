@@ -51,6 +51,12 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 2. Name it `index.html` and open the file.
 3. Add `<h1>It works!</h1>` to the html file and save it.
 
+Your index.html file should look like this now:
+
+```html
+<h1>It works!</h1>
+```
+
 ### 5. Commit your changes
 
 <details>
@@ -66,7 +72,7 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 
 **Note:** For some people this might trigger an error message, saying that github username and email are not properly configured.
 
-To fix this, run the following commands – one by one – in your terminal in VSCode. Replace the parameters in "" to fit your own name and e-mail, and click Enter to run the command.
+To fix this, run the following commands – one by one – in your terminal in VSCode. Replace the parameters in "" to contain your own name and e-mail, and click Enter to run each command.
 
 ```
 git config --global user.name "Your Name"
@@ -80,9 +86,9 @@ git config --global user.email "youremail@yourdomain.com"
 
 </details>
 
-### 6. Add HTML content
+### 6. Add more HTML content
 
-HTML is all about structure and content, and not about style (that is where CSS comes in). Almost all HTML documents follow this basic structure:
+HTML is all about structure and content! But not about style (that is where CSS comes in). Almost all HTML documents follow this basic structure:
 
 ```html
 <!DOCTYPE html>
@@ -100,7 +106,7 @@ HTML is all about structure and content, and not about style (that is where CSS 
 </html>
 ```
 
-**When you are done** with adding content to your html page, do the following to update your website:
+**When you are done** with adding content to your html page, do the following to update your GitHub Pages-hosted website:
 
 1. Save the HTML file
 2. Commit the changes
@@ -108,5 +114,6 @@ HTML is all about structure and content, and not about style (that is where CSS 
 
 ## Day 2: Building your portfolio page
 
-- Add a header and a list of projects
-- Add style with CSS
+- Add a header section
+- Add a list of projects with images
+- Add styling with CSS
