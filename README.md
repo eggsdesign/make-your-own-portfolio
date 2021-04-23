@@ -15,6 +15,8 @@ You can follow [these steps](./setup.md)
 
 ### 2. Create a repository on GitHub
 
+![Create repo](./assets/create-repo.gif)
+
 To make hosting simpler, follow these steps closely
 
 1. Make sure you are logged in to GitHub. Click the GitHub logo to navigate to the front page.
@@ -23,6 +25,8 @@ To make hosting simpler, follow these steps closely
 4. Click `Create repository`
 5. **Important** Click `HTTPS`and copy the generated repo link (mine looks like this`https://github.com/avanvik/avanvik.github.io.git`
 6. In VSCode, click `clone repository...` and paste in the GitHub repo url. Pick where you want to put the project. I usually put mine in `Documents/Projects/`. **Note:** VSCode will try to authenticate your GitHub user, so just follow the required steps for that.
+
+![Clone repo](./assets/clone-repo.gif)
 
 ### 3. Create a 'main' branch
 
@@ -46,9 +50,7 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 
 **Note:** For some people this might trigger an error message, saying that github username and email are not properly configured.
 
-To fix this, run the following commands in your terminal in VSCode (replace the parameters in "" to fit your own name and e-mail):
-
-Paste, edit the text and click Enter to run the command.
+To fix this, run the following commands – one by one – in your terminal in VSCode. Replace the parameters in "" to fit your own name and e-mail, and click Enter to run the command.
 
 ```
 git config --global user.name "Your Name"
