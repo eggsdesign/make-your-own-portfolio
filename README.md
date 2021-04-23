@@ -45,6 +45,13 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 1. In the VSCode toolbar (the bar stuck to the top of your screen on Mac) click `Terminal > New Terminal`. This will open a new panel with a terminal in it, navigated to your project folder.
 2. Type `git checkout -b main` and click Enter to run the command. This will create a new branch called `main` and set it as the active branch.
 
+<details>
+	<summary>Show me</summary>
+
+![Open terminal](./assets/new-terminal.png)
+
+</details>
+
 ### 4. Create an HTML file
 
 1. In VSCode, create a new file in your project folder.
