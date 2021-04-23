@@ -15,7 +15,12 @@ You can follow [these steps](./setup.md)
 
 ### 2. Create a repository on GitHub
 
+<details>
+	<summary>Show me</summary>
+
 ![Create repo](./assets/create-repo.gif)
+
+</details>
 
 To make hosting simpler, follow these steps closely
 
@@ -26,7 +31,12 @@ To make hosting simpler, follow these steps closely
 5. **Important** Click `HTTPS`and copy the generated repo link (mine looks like this`https://github.com/avanvik/avanvik.github.io.git`
 6. In VSCode, click `clone repository...` and paste in the GitHub repo url. Pick where you want to put the project. I usually put mine in `Documents/Projects/`. **Note:** VSCode will try to authenticate your GitHub user, so just follow the required steps for that.
 
+<details>
+	<summary>Show me</summary>
+
 ![Clone repo](./assets/clone-repo.gif)
+
+</details>
 
 ### 3. Create a 'main' branch
 
@@ -42,7 +52,12 @@ A git branch is like a folder where your code changes go. GitHub Pages require a
 
 ### 5. Commit your changes
 
+<details>
+	<summary>Show me</summary>
+
 ![Commit changes GIF](./assets/add-and-commit.gif)
+
+</details>
 
 1. In VSCode click the "Source Control" tab in the left sidebar. It should have a notification icon, since you added your index.html file.
 2. Click the "✔" Icon to commit all changes
@@ -56,6 +71,13 @@ To fix this, run the following commands – one by one – in your terminal in V
 git config --global user.name "Your Name"
 git config --global user.email "youremail@yourdomain.com"
 ```
+
+<details>
+	<summary>Show me</summary>
+
+![Fix git in terminal](./assets/terminal.png)
+
+</details>
 
 ## Day 2: Building your portfolio page
 
