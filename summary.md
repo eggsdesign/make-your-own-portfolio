@@ -71,6 +71,29 @@ Some html elements you will probably bump into
 
 ## CSS
 
+### How to add a css file to your html page
+
+1. Create a css file in the same directory. Name it `style.css` for example.
+2. Add a `<link ... />` tag to the `<head>` area in your html file.
+3. Add a href attribute to the `<link />` tag, and set the value to "./style.css"
+4. Add a rel attribute to the `<link />` tag and set the value to "stylesheet"
+
+You should now have an html file that looks something like this:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My blog</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Content on the page that people will actually see --->
+  </body>
+</html>
+```
+
 ### Selectors - which elements to style
 
 All <div> elements
