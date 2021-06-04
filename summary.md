@@ -18,7 +18,7 @@
 </div>
 ```
 
-Some html elements you will probably bump into
+Some html elements you will probably bump into. This is a small selection; you can read more on [Mozilla's Developer Network website](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
 - `<div>` is a diverse element mostly used for grouping other elements. However, if you want to use more meaningful elements, feel free to check out the `<main>`, `<article>`. `<section>`, `<header>`, `<footer>` elements instead.
 - `<img>` an image tag. It supports the attribute `src="my-cool-image.png"` which can point to an image in your project or on the internet.
