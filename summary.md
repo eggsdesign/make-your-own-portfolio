@@ -1,6 +1,6 @@
 # Course summary
 
-## Visual Studio Code editor
+<!-- ## Visual Studio Code editor -->
 
 ## HTML
 
