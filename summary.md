@@ -109,6 +109,6 @@ For setting up, see the [dedicated article to Setup](setup.md)
 
 Every time you want to upload your local changes to the internet-accessible website hosted on your username.github.io domain, do the following:
 
-- Add your changes to a commit
-- Commit your changes, and add a comment to describe what you did
-- Push the changes
+1. Add your changes to a commit
+2. Commit your changes, and add a comment to describe what you did
+3. Push the changes
