@@ -32,3 +32,12 @@ This tutorial is split into multiple chunks.
 - Adding project cases
 - Flexbox and layout
 - Animations
+
+### Day 3: Freeform styling
+
+🎥 Session recording: https://web.microsoftstream.com/video/2e1d35b3-0ac6-49e1-9794-fea2a62e2005
+
+#### Content
+
+- Copying from Figma
+- Flexbox for layout
