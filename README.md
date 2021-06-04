@@ -3,6 +3,7 @@
 With HTML, CSS and Javascript! In this course we are going to code a portfolio, and host it with [GitHub Pages](https://pages.github.com/). This will give you an introduction to web technology and Git, which should be a solid foundation to build your continued code mastery upon.
 
 Want to catch up quickly? Check out the [summary](summary.md)!
+Keen to dig deeper into front-end development? Have a look at this [Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
 
 ## Install Git, VSCode and sign up to GitHub
 
